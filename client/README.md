@@ -1,1 +1,1 @@
-# Frontend design for Suyena Advance Learning.
+# Frontend design for Suyena Advanced Learning.

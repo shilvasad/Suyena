@@ -1,1 +1,1 @@
-# Backend design for Suyena Advance Learning.
+# Backend design for Suyena Advanced Learning.
