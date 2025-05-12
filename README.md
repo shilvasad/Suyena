@@ -65,20 +65,6 @@ Suyena Advanced Learning is planned to be accessible across multiple platforms:
 - Mobile Application
 - Desktop Application
 
-## Design & Architecture Principles
-
-The system is designed with the following principles to ensure maintainability, scalability, and adaptability:
-
-- **Domain Driven Design:** A software design approach that emphasizes collaboration between technical and domain experts to create a model that reflects the business domain. [Learn more](https://en.wikipedia.org/wiki/Domain-driven_design)
-- **Clean Architecture:** This architecture emphasizes separation of concerns, making the system easier to test, maintain, and adapt to changing requirements. [Learn more](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
-- **Hexagonal Architecture:** A design pattern that promotes a clear separation between the core application logic and external systems, making the application more maintainable and testable. [Learn more](https://alistair.cockburn.us/hexagonal-architecture/)
-- **Layered Architecture:** This pattern separates concerns into different layers (e.g., presentation, business logic, data access) to improve maintainability and scalability. [Learn more](https://en.wikipedia.org/wiki/Multitier_architecture)
-- **Microservices:** A software development technique where the application is structured as a collection of small, independent services that communicate over APIs, enabling scalability, flexibility, and easier maintenance. [Learn more](https://microservices.io/)
-- **Event-Driven Architecture:** This architecture enables the system to react to events in real-time, improving responsiveness and scalability. [Learn more](https://en.wikipedia.org/wiki/Event-driven_architecture)
-- **API-First Architecture:** This approach ensures that APIs are designed and documented before implementation, enabling better collaboration, consistency, and scalability. It is applied in this project to ensure seamless integration across platforms and services. [Learn more](https://www.postman.com/api-first/)
-- **Feature-Driven Development:** This approach focuses on delivering small, valuable features to the user, allowing for continuous improvement and feedback. [Learn more](https://en.wikipedia.org/wiki/Feature-driven_development)
-- **Continuous Integration & Continuous Deployment (CI/CD):** This approach automates the build, test, and deployment process, ensuring that changes are delivered quickly and reliably. [Learn more](https://www.atlassian.com/continuous-delivery/ci-vs-cd)
-
 ## Technologies Used
 
 The system is built using a modern technology stack, categorized as follows:
@@ -118,6 +104,21 @@ The system is built using a modern technology stack, categorized as follows:
   - **Performance Auditing:** Lighthouse
   - **Accessibility Guidelines:** Web Accessibility Initiative (WAI)
   - **Internationalization (i18n):** Internationalization and localization practices
+
+
+## Design & Architecture Principles
+
+The system is designed with the following principles to ensure maintainability, scalability, and adaptability:
+
+- **Domain Driven Design:** A software design approach that emphasizes collaboration between technical and domain experts to create a model that reflects the business domain. [Learn more](https://en.wikipedia.org/wiki/Domain-driven_design)
+- **Clean Architecture:** This architecture emphasizes separation of concerns, making the system easier to test, maintain, and adapt to changing requirements. [Learn more](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
+- **Hexagonal Architecture:** A design pattern that promotes a clear separation between the core application logic and external systems, making the application more maintainable and testable. [Learn more](https://alistair.cockburn.us/hexagonal-architecture/)
+- **Layered Architecture:** This pattern separates concerns into different layers (e.g., presentation, business logic, data access) to improve maintainability and scalability. [Learn more](https://en.wikipedia.org/wiki/Multitier_architecture)
+- **Microservices:** A software development technique where the application is structured as a collection of small, independent services that communicate over APIs, enabling scalability, flexibility, and easier maintenance. [Learn more](https://microservices.io/)
+- **Event-Driven Architecture:** This architecture enables the system to react to events in real-time, improving responsiveness and scalability. [Learn more](https://en.wikipedia.org/wiki/Event-driven_architecture)
+- **API-First Architecture:** This approach ensures that APIs are designed and documented before implementation, enabling better collaboration, consistency, and scalability. It is applied in this project to ensure seamless integration across platforms and services. [Learn more](https://www.postman.com/api-first/)
+- **Feature-Driven Development:** This approach focuses on delivering small, valuable features to the user, allowing for continuous improvement and feedback. [Learn more](https://en.wikipedia.org/wiki/Feature-driven_development)
+- **Continuous Integration & Continuous Deployment (CI/CD):** This approach automates the build, test, and deployment process, ensuring that changes are delivered quickly and reliably. [Learn more](https://www.atlassian.com/continuous-delivery/ci-vs-cd)
 
 ## Contributing
 
