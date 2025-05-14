@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://suyena.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilvasad/suyena.git"
+  },
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
